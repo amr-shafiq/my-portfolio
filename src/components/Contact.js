@@ -182,7 +182,7 @@ const Contact = () => {
                 Get a detailed overview of my education, skills, and projects.
               </p>
               <a
-  href="/resume/Resume_AmirulShafiqBinAmirrullah.pdf"
+  href={`${process.env.PUBLIC_URL}/resume/Resume_AmirulShafiqBinAmirrullah.pdf`}
   download="Resume_AmirulShafiqBinAmirrullah.pdf"
   className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200"
 >
