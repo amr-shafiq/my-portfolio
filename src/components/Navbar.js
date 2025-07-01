@@ -31,7 +31,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-              Amr Shafiq
+              Amirul Shafiq
             </h1>
           </div>
 

@@ -50,7 +50,7 @@ const Hero = () => {
           {/* Main Content */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white">
-              Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Amr Shafiq</span>
+              Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Amirul Shafiq</span>
             </h1>
             
             <div className="h-8 md:h-12 flex items-center justify-center">

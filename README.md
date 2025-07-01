@@ -1,4 +1,4 @@
-# Amr Shafiq - Portfolio Website
+# My Portfolio Website
 
 A modern, responsive portfolio website built with React and Tailwind CSS. This portfolio showcases my skills, projects, and experience as a software engineer.
 
@@ -153,7 +153,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Amr Shafiq - [amirulshafiq260700@gmail.com](mailto:amirulshafiq260700@gmail.com)
+Amirul Shafiq - [amirulshafiq260700@gmail.com](mailto:amirulshafiq260700@gmail.com)
 
 Project Link: [https://github.com/amr-shafiq/my-portfolio](https://github.com/amr-shafiq/my-portfolio)
 

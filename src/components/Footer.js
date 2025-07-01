@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Amr Shafiq</h3>
+            <h3 className="text-2xl font-bold mb-4">Amirul Shafiq</h3>
             <p className="text-gray-400 mb-6 max-w-md">
               A recent Computer Science graduate passionate about software development and creating innovative solutions. 
               Eager to start my professional journey and contribute to meaningful projects.
@@ -33,7 +33,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/amr-shafiq"
+                href="https://www.linkedin.com/in/amirul-shafiq-82ba28271"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -43,7 +43,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://twitter.com/amr_shafiq"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
@@ -53,7 +53,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="mailto:amr.shafiq@example.com"
+                href="mailto:amirulshafiq260700@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,8 +84,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400">
-              <p>amr.shafiq@example.com</p>
-              <p>Your City, Country</p>
+              <p>amirulshafiq260700@gmail.com</p>
+              <p>Shah Alam, Selangor</p>
               <p>Open to opportunities</p>
               <p>Available for interviews</p>
             </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Amr Shafiq. All rights reserved.
+              © {currentYear} Amirul Shafiq. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
