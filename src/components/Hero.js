@@ -32,20 +32,24 @@ const Hero = () => {
       }}></div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="space-y-8">
+        <div className="space-y-12">
           {/* Profile Image */}
-          <div className="flex justify-center">
-            <div className="relative">
-              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
-                <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center">
-                  <div className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    AS
-                  </div>
-                </div>
-              </div>
-              <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-800"></div>
-            </div>
-          </div>
+<div className="flex justify-center mt-20">
+  <div className="relative">
+    <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+      <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 overflow-hidden">
+      <img
+  src={`${process.env.PUBLIC_URL}/images/amirulshafiq.jpg`}
+  alt="Amirul Shafiq"
+  className="w-full h-full object-cover rounded-full"
+/>
+
+      </div>
+    </div>
+    <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-white dark:border-gray-800"></div>
+  </div>
+</div>
+
 
           {/* Main Content */}
           <div className="space-y-6">

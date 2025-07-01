@@ -16,8 +16,18 @@ const About = () => {
       title: "Vacation Trainee",
       school: "KPMG Malaysia",
       period: "2023 - 2024",
-      description: "Took the internship from one of the KPMG branches in Malaysia, which is in Petaling Jaya with 6 months insternship. Has been assigned as one of the digital team of KPMG Malaysia, Developed multimedia content and interactive digital materials used across internal departments; collaborated with creative and technical teams to meet client specifications and compliance requirements.",
+      description: "Took the internship from one of the KPMG branches in Malaysia, which is in Petaling Jaya with 6 months internship. Has been assigned as one of the digital team of KPMG Malaysia, Developed multimedia content and interactive digital materials used across internal departments; collaborated with creative and technical teams to meet client specifications and compliance requirements.",
       allowance: "RM1,000"
+    }
+  ];
+
+  const experiences1 = [
+    {
+      title: "Webmaster Intern",
+      school: "AMK Holidays Sdn Bhd",
+      period: "2019 - 2020",
+      description: "Maintained an agency website with the domain name 'goholidaymalaysia'. Regularly updated data and contracts from hotels that worked with AMK Holidays Sdn Bhd",
+      allowance: "RM450"
     }
   ];
 
@@ -67,7 +77,7 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
-                Who I Am
+                Who Am I?
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
                 I'm a recent Computer Science graduate with a passion for software development and problem-solving. 
@@ -96,7 +106,7 @@ const About = () => {
                 <div className="text-gray-600 dark:text-gray-300">Technologies</div>
               </div>
               <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
-                <div className="text-3xl font-bold text-red-600 dark:text-red-400 mb-2">3.8</div>
+                <div className="text-3xl font-bold text-red-600 dark:text-red-400 mb-2">3.29</div>
                 <div className="text-gray-600 dark:text-gray-300">GPA</div>
               </div>
             </div>
@@ -113,9 +123,30 @@ const About = () => {
                     <div className="text-blue-600 dark:text-blue-400 font-medium mb-2">
                       {edu.period}
                     </div>
-                    <div className="text-sm text-green-600 dark:text-green-400 font-medium mb-2">
+                    {/* <div className="text-sm text-green-600 dark:text-green-400 font-medium mb-2">
                       Allowance: {edu.allowance}
+                    </div> */}
+                    <p className="text-gray-600 dark:text-gray-300">
+                      {edu.description}
+                    </p>
+                  </div>
+                ))}
+            {experiences1.map((edu, index) => (
+                  <div key={index} className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+                    <div className="flex justify-between items-start mb-2">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
+                        {edu.title}
+                      </h4>
+                      <span className="text-sm text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-600 px-2 py-1 rounded">
+                        {edu.school}
+                      </span>
                     </div>
+                    <div className="text-blue-600 dark:text-blue-400 font-medium mb-2">
+                      {edu.period}
+                    </div>
+                    {/* <div className="text-sm text-green-600 dark:text-green-400 font-medium mb-2">
+                      Allowance: {edu.allowance}
+                    </div> */}
                     <p className="text-gray-600 dark:text-gray-300">
                       {edu.description}
                     </p>
