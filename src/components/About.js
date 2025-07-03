@@ -5,7 +5,7 @@ const About = () => {
     {
       degree: "Bachelor of Computer Science",
       school: "Universiti Teknologi Malaysia",
-      period: "2020 - 2024",
+      period: "2020 - 2025",
       description: "Graduated. Focused on software engineering, algorithms, and web development. Completed capstone project in full-stack development.",
       gpa: "3.29/4.0"
     }
@@ -41,6 +41,27 @@ const About = () => {
       title: "LabSync: A lab appointment scheduling and management system",
       description: "Implemented an appointment scheduling system in real time in Dart, with database management in Firebase. Created efficient solutions for complex meetup or meeting problems.",
       technologies: ["Dart", "Firebase", "Flutter"]
+    }
+  ];
+
+  const references = [
+    {
+      name: "Dr. Ajune Wanis Binti Ismail",
+      description: "Senior Lecturer, Faculty of Computer Science and Information Technology, Universiti Teknologi Malaysia",
+      email: "ajune@uitm.edu.my",
+      phone: "+6075532331"
+    },
+    {
+      name: "Amir Saifullah Bin Abdullah Sani",
+      description: "Assistant Manager of Learning and Development, KPMG Malaysia",
+      email: "amir.saifullah@kpmg.com",
+      phone: "+60126456210"
+    },
+    {
+      name: "Nora Hazlin Binti Isa",
+      description: "Co-director of AMK Holidays Sdn Bhd",
+      email: "norahazlinisa@yahoo.com",
+      phone: "+60186676744"
     }
   ];
 
@@ -214,6 +235,37 @@ const About = () => {
                     </div>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            {/* References */}
+            <div>
+              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
+                References
+              </h3>
+              <div className="space-y-6">
+              {references.map((reference, index) => (
+    <div
+      key={index}
+      className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md border-l-4 border-purple-600"
+    >
+      <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+        {reference.name}
+      </h4>
+
+      <p className="text-gray-600 dark:text-gray-300 mb-3">
+        {reference.description}
+      </p>
+
+      <p className="text-gray-600 dark:text-gray-300 mb-3">
+        <span className="font-semibold text-gray-900 dark:text-white">Email:</span> {reference.email}
+      </p>
+
+      <p className="text-gray-600 dark:text-gray-300">
+        <span className="font-semibold text-gray-900 dark:text-white">Phone Number:</span> {reference.phone}
+      </p>
+    </div>
+  ))}
               </div>
             </div>
 

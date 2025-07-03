@@ -5,21 +5,22 @@ const Skills = () => {
     {
       category: "Programming Languages",
       skills: [
-        { name: "JavaScript", level: 85, color: "from-yellow-500 to-yellow-600" },
-        { name: "Python", level: 80, color: "from-blue-500 to-blue-600" },
-        { name: "Java", level: 75, color: "from-orange-500 to-orange-600" },
-        { name: "C++", level: 70, color: "from-blue-600 to-blue-700" },
-        { name: "HTML/CSS", level: 90, color: "from-orange-500 to-orange-600" }
+        { name: "JavaScript", level: 65, color: "from-yellow-500 to-yellow-600" },
+        { name: "Python", level: 65, color: "from-indigo-500 to-indigo-600" },
+        { name: "Java", level: 60, color: "from-orange-500 to-orange-600" },
+        { name: "C++", level: 55, color: "from-blue-600 to-blue-700" },
+        { name: "HTML/CSS", level: 80, color: "from-emerald-500 to-emerald-600" },
+        { name: "Dart", level: 75, color: "from-teal-500 to-teal-600" }
       ]
     },
     {
       category: "Web Development",
       skills: [
-        { name: "React", level: 80, color: "from-blue-500 to-blue-600" },
-        { name: "Node.js", level: 75, color: "from-green-500 to-green-600" },
-        { name: "Express.js", level: 70, color: "from-gray-500 to-gray-600" },
-        { name: "MongoDB", level: 65, color: "from-green-600 to-green-700" },
-        { name: "SQL", level: 75, color: "from-blue-600 to-blue-700" }
+        { name: "React", level: 65, color: "from-cyan-500 to-cyan-600" },
+        { name: "Node.js", level: 70, color: "from-green-500 to-green-600" },
+        { name: "PHP", level: 65, color: "from-purple-500 to-purple-600" },
+        { name: "Laravel", level: 70, color: "from-pink-600 to-pink-700" },
+        { name: "SQL", level: 75, color: "from-red-400 to-red-500" }
       ]
     },
     {
@@ -28,8 +29,8 @@ const Skills = () => {
         { name: "Git", level: 85, color: "from-orange-500 to-orange-600" },
         { name: "VS Code", level: 90, color: "from-blue-500 to-blue-600" },
         // { name: "Docker", level: 60, color: "from-blue-500 to-blue-600" },
-        { name: "Google Cloud Platform", level: 55, color: "from-yellow-500 to-yellow-600" },
-        { name: "Linux", level: 70, color: "from-orange-500 to-orange-600" }
+        { name: "Google Cloud Platform", level: 55, color: "from-blue-300 to-blue-400" },
+        { name: "Linux", level: 60, color: "from-lime-500 to-lime-600" }
       ]
     }
   ];
@@ -87,9 +88,10 @@ const Skills = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
               "Data Structures", "Algorithms", "Object-Oriented Programming", "Database Design", "REST APIs", "GraphQL",
-              "UI/UX Design", "Webpack", "Babel", "ESLint", "Prettier", "Agile Methodology",
-              "Problem Solving", "Critical Thinking", "Team Collaboration", "Technical Writing", "Research", "Documentation",
-              "Windows", "MacOS", "Command Line", "Version Control", "Code Review", "Debugging"
+              "UI/UX Design", "Webpack", "Babel", "Data Analysis", "Agile Methodology",
+              "Problem Solving", "Critical Thinking", "Team Collaboration", "Technical Writing", "Documentation",
+              "Windows", "Command Line", "Version Control", "Code Review", "Debugging",
+              "Machine Learning", "Cloud Computing", "System Design"
             ].map((skill, index) => (
               <div 
                 key={index}
@@ -123,7 +125,7 @@ const Skills = () => {
                 </svg>
               </div>
               <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Cloud Computing</h4>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">AWS services and cloud architecture</p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">GCP services and cloud architecture</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">

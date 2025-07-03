@@ -54,7 +54,7 @@ const Hero = () => {
           {/* Main Content */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white">
-              Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Amirul Shafiq</span>
+              Hi, My name is <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Amirul Shafiq</span>
             </h1>
             
             <div className="h-8 md:h-12 flex items-center justify-center">
@@ -120,11 +120,11 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-gray-400 dark:border-gray-600 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-gray-400 dark:bg-gray-600 rounded-full mt-2 animate-pulse"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
